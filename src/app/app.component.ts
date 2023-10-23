@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'todo-list';
  constructor(){
-  setTimeout(() => {
-    this.title = "change-title"
-  }, 2000);
+  // setTimeout(() => {
+  //   this.title = "change-title"
+  // }, 2000);
  }
 }
